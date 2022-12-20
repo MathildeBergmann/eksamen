@@ -1,0 +1,1012 @@
+
+/*------------------------------ ROOTS --------------------------*/
+
+
+:root {
+    --maincolor: rgb(246, 243, 237);
+    --textcolor: rgb(86, 86, 86);
+}
+
+/*------------------------------ HEADER OG BODY ELEMENTER --------------------------*/
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.page_body {
+    background: var(--subcolor);
+    max-width: 1680px;
+    margin: 0 auto;
+    font-family: 'Old Standard TT', serif;
+    background-color:rgb(255, 255, 255);
+    }
+
+/*------------------------------ NAVIGATIONSMENU -MOBIL --------------------------*/
+
+.navigation_container {
+    background-color: #f7f6f3;
+}
+
+  .mobileiconlabel {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+    padding: 3px 6px 0px 0px;
+}
+
+.mobile-title {
+    margin: 0% auto 0% auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+.menuitem {
+    display: block;
+    padding: 20px 20px 10px 20px;
+    text-decoration: none;
+    list-style: none; 
+    text-align: left;
+    color: black;
+    font-size: 26px;
+}
+
+.ekstra {
+    display: block;
+    padding: 10px 20px 10px 20px;
+    color: var(--textcolor);
+    text-decoration: none;
+    text-align: left;
+    list-style: none;
+    font-size: 20px;
+}
+
+/* ----------------------------LIST DEKORATION - MOBIL -------------------------*/ 
+
+nav ul li {
+    list-style: none;
+}
+
+/* ----------------------------CHECKBOX VINKET AF - MOBIL -------------------------*/ 
+.menuitems_container,
+.mobileicon {
+    display: none;
+}
+
+/* ----------------------------VIS MENUITEMS NÅR DER ER TRYKKET - MOBIL -------------------------*/ 
+.navigation_container input:checked~.menuitems_container {
+    display: block;
+}
+
+/* ---------------------------- LOGO - MOBIL -------------------------*/ 
+
+.logo {
+    position: absolute;
+    left: 10px;
+    width: 60px;
+}
+
+/* ----------------------------   HEADER SLUT  - MOBIL -------------------------*/ 
+
+/* ---------------------------- MAIN CONTENT FORSIDE - MOBIL -------------------------*/ 
+
+.overskrift {
+    font-size: 45px;
+    padding-left: 8%;
+    font-weight: lighter;
+}
+
+.image_forside {
+    width: 70%;
+    height: 80%;
+    margin: 0 10% 0 10%;
+    padding-left: 10%;
+}
+
+.tilbud {
+    text-align: center;
+    font-size: 18px;
+}
+
+.underoverskrift {
+    display: none;
+}
+
+.link {
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: .1em;
+    font-family: Helvetica, sans-serif;    
+    border: 0.3px solid gray;
+    color: var(--textcolor);
+    padding: 13px 32px;
+    font-size: 11px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1px 1px;
+    cursor: pointer;
+}
+
+.flytlink {
+    padding-left: 10%;
+    margin: 10%;
+}
+
+.creme {
+    display: none;
+}
+
+/* ---------------------------- KONKURRENCE FORMULAR - MOBIL -------------------------*/ 
+
+.konkurrence {
+    padding-left: 4%;
+    padding-top: 5%;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.nybaggrund {
+    background-color: rgb(246, 243, 237);
+}
+
+.vind {
+    padding-left: 4%;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.betingelser {
+    padding-left: 4%;
+    margin: 0px 20px 0px 0px;
+    font-size:17px;
+    padding-bottom: 5%;
+}
+
+.form {
+    width: 90%;
+    padding-left: 4%;
+}
+
+.email {
+    margin-top: 2%;
+}
+
+.tlf {
+    margin-top: 2%;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+
+.submit {
+    text-align: center;
+    color: #fff;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    text-shadow: none;
+    letter-spacing: .2em;
+    background: white;
+    padding: 13px 32px;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 2px 20px;
+    cursor: pointer;
+}
+
+/* ---------------------------- SOME PAGE - MOBIL -------------------------*/ 
+.overskrift_influencer {
+    font-size: 45px;
+    padding-left: 8%;
+    font-weight: lighter;
+}
+
+.under_overskrift {
+    font-size: 17px;
+    padding: 0% 5% 0% 8%;
+    font-weight: 100;
+}
+
+.influencer_billede {
+    width: 70%;
+    padding-left: 15%;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.young {
+    line-height: 1.5;
+    padding: 0px 40px 0px 40px;
+}
+
+.udtalelse {
+    line-height: 1.5;
+    margin: 5%;
+    color: #636363;
+    font-style: italic;
+    padding-top: 4%;
+}
+
+.rabatkode {
+    padding-left: 5%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* ---------------------------- HVORFOR VÆLGE RUDOLPH CARE? - MOBIL -------------------------*/ 
+
+
+.bæredygtighed {
+    font-size: 18px;
+    padding-left: 2.5rem;
+}
+
+.icon_small {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.om {
+    margin: 8%;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+.emballage {
+    margin: 5%;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.overskrift_hvorfor {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 100;
+
+}
+
+.bæredygtighed {
+    font-size: 1.6rem;
+}
+
+.icon_small1 {
+    width: 50%;
+    margin: 5% 5% 0 5%;
+    border-radius: 100%;
+    border: 0.5px solid grey;
+}
+
+.icon_small2 {
+    width: 50%;
+    margin: 5% 5% 0 5%;
+    border-radius: 100%;
+    border: 0.5px solid #808080;
+}
+
+.flexbox_alle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex_en {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    padding-bottom: 5%;
+    margin: 3%;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    background-color: rgb(246, 243, 237);
+}
+
+.flex_to {
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    margin: 3%;
+    background-color: rgb(229, 240, 239);
+}
+
+.om {
+    line-height: 1.5;
+    font-size: 1rem;
+    padding-top: 4%;
+    color: rgb(86, 86, 86);
+    font-weight: 100;
+}
+
+.emballage1 {
+    line-height: 1.5;
+    font-size: 1rem;
+    padding-top: 5%;
+    margin: 5%;
+    color: var(--textcolor);
+    font-weight: 100;
+} 
+
+.mere {
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: .2em;
+    font-family: Helvetica, sans-serif;    
+    border: 0.5px solid gray;
+    color: var(--textcolor);
+    padding: 13px 32px;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.line {
+    width: 90%;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+.ejer {
+    width: 60%;
+    border-radius: 50%;
+    border: 0.5px solid grey;
+    margin-top: 5%;
+
+}
+
+.ejer1{
+    font-size: 20px;
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: 100;
+    color: rgb(86, 86, 86);
+    padding-left: 5%;
+}
+
+.andrea {
+    font-size: 50px;
+    text-align: center;
+    font-family:cursive;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 8%;
+    color: rgb(163, 186, 187);
+}
+
+.flex_tre {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+/* ---------------------------- STEP BY STEP - MOBIL -------------------------*/ 
+
+.overskrift_step {
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.emballage_step {
+    margin: 7%;
+    line-height: 1.5;
+    text-align: left;
+    font-size: 18px;
+}
+
+.image_forside_flaske {
+    width: 85%;
+    padding-left: 10%;
+}
+
+.step {
+    font-size: 1.1rem;
+    padding: 10% 0% 0% 10%;
+}
+
+.guides {
+    padding: 0% 8% 5% 10%;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+/* ---------------------------- FOOTER START - MOBIL -------------------------*/ 
+
+.footer_baggrund {
+    background-color: #C9D2CA;
+}
+
+.kontakt {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 5%;
+    margin: 0;
+}
+
+.kontakt_mail {
+    text-align: center;
+}
+
+.some {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 2%;
+}
+
+.maps {
+    display: none;
+}
+
+.insta {
+    align-items: center;
+    width: 15%;
+}
+
+.face {
+    width: 15%;
+}
+
+.socials {
+    padding-left: 40%;
+}
+
+.creme_1 {
+    padding-left: 35%;
+    width: 150px;
+}
+
+/* ---------------------------- FOOTER SLUT - MOBIL -------------------------*/ 
+
+/* ---------------------------- FEJLSIDE - MOBIL -------------------------*/ 
+
+.hov {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10%;
+    font-weight: bold;
+}
+
+.loading {
+    width: 70%;
+    padding-left: 15%;
+}
+
+.thissite {
+    text-align: center;
+    margin: 2%;
+    padding-top: 5%;
+    font-weight: 100;
+}
+.knap {
+    background-color: #d6bcbc;
+    text-decoration: none;
+    border: none;
+    padding: 15px 15px;
+    color:white;
+    font-family: 'Old Standard TT', serif;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 3rem;
+}
+
+.knap:hover {
+    background-color: #ebd1d1;
+}
+
+.flytbutton {
+    padding: 10% 0% 5% 30%;
+}
+
+/*------------------------------MEDIA QUERIES--------------------------*/
+
+@media screen and (min-width: 1250px) {
+
+/*------------------------------ FEJLSIDE - MEDIA QUERIES--------------------------*/
+
+    .loading {
+        width: 35%;
+        padding-left: 34%;
+    }
+
+    .thissite {
+        font-size: 25px;
+        margin: 0 20% 0% 20%;
+    }
+
+    .flytbutton {
+        padding: 5% 0% 5% 43%;
+    }
+
+/*------------------------------ NAVIGATIONSBAR - MEDIA QUERIES--------------------------*/
+
+/*------------------------------ FJERN MOBILICON / burgermenu- MEDIA QUERIES--------------------------*/
+
+.mobileiconlabel,
+.mobileicon,
+.back-button,
+.mobile-title {
+    display: none;
+}
+
+/*------------------------------ LOGO - MEDIA QUERIES--------------------------*/
+
+.logo {
+    display: flex;
+    align-items:flex-start;
+    width: 25%;
+    padding: 4px;
+}
+
+/*------------------------------ ROW FUNKTION I MENUBAR - MEDIA QUERIES--------------------------*/
+
+.menuitems_container {
+    display: flex;
+}
+
+.navigation_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*------------------------------ DROPDOWN MENUBAR MED LIST OG UNORDERED LIST - MEDIA QUERIES--------------------------*/
+
+
+.menuitem {
+    font-size: 21px;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+nav {
+    width: 100%;
+    background-color: #16160c;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    text-decoration: none;
+}
+
+nav ul li a {
+    display: block;
+    color: var(--textcolor);
+    font-size: 22px;
+    padding: 24px 14px;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 180px;
+    border-radius: 4px;
+}
+
+nav ul li ul li a {
+    padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+    background: rgb(244, 244, 241);
+}
+
+    /*------------------------------ NAVIGATIONSBAR - MEDIA QUERIES--------------------------*/
+
+    /* ---------------------------- FORSIDE  - MEDIA QUERIES - DESKTOP -------------------------*/ 
+
+.image_forside {
+    width: 45%;
+    padding: 10% 0% 0% 0%;
+    margin: 0;
+}
+
+.overskrift {
+    font-size: 45px;
+    padding: 0;
+}
+
+.underoverskrift {
+    display: block;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: left;
+    width: 130%;
+    padding-left: 0;
+    padding-bottom: 7%;
+}
+
+.desktop_ovre {
+    display: flex;
+    flex-direction:row;
+}
+
+.link {
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: .2em;
+    font-family: Helvetica, sans-serif;    
+    border: 0.5px solid gray;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    cursor: pointer;
+    padding: 10%;
+}
+
+.linje {
+    display: flex;
+    flex-direction: row;
+}
+
+.flytlink {
+    padding: 0;
+}
+
+.creme {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+}
+
+.info {
+    padding: 8% 15% 0% 5%;
+}
+
+.tilbud {
+    display: none;
+}
+
+.konkurrence {
+    font-size: 2rem;
+    padding-left: 10%;
+}
+
+.vind {
+    font-size: 1.5rem;
+    padding-left: 10%;
+}
+
+.betingelser {
+    font-size: 1.3rem;
+    padding: 0% 0% 0% 10%;
+}
+
+.form {
+    width: 50%;
+    padding: 2% 0% 0% 10%;
+}
+ 
+.submit {
+    text-align: center;
+	color: #fff;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px rgb(241, 240, 240);
+	text-shadow: none;
+    letter-spacing: .2em;
+    color: black;
+    background: white;
+    padding: 13px 32px;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px 5%;
+    cursor: pointer;
+}
+
+    /* ---------------------------- FORSIDE SLUT - MEDIA QUERIES - DESKTOP -------------------------*/ 
+    /* ---------------------------- STEP BY STEP  - MEDIA QUERIES - DESKTOP -------------------------*/ 
+
+.overskrift_step {
+    font-size: 50px;
+    padding-left: 10%;
+}
+
+.emballage_step {
+    width: 70%;
+    margin: 0;
+    padding: 0% 0% 10% 30%;
+    line-height: 1.7;
+}
+
+.flex_box_step {
+    display: flex;
+    align-items:flex-end;
+    padding-bottom: 8%;
+}
+
+.image_forside_flaske {
+    width: 45%;
+    padding-right: 3%;
+}
+
+.flexbox_step {
+    display: flex;
+    flex-direction: row;
+}
+
+.guides {
+    margin: 5%;
+    line-height: 1.9;
+}
+
+.step {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 15%;
+}
+
+.step_flex {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0% 3%;
+}
+
+    /* ---------------------------- STEP BY STEP SLUT - MEDIA QUERIES - DESKTOP -------------------------*/ 
+
+    /* ---------------------------- SOME PAGE - MEDIA QUERIES - DESKTOP -------------------------*/ 
+
+
+.overskrift_influencer {
+    font-size: 50px;
+    text-align: left;
+    padding-top: 2%;
+}
+
+.under_overskrift {
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.young {
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0% 20% 0% 8%;
+}
+
+.influencer_billede {
+    width: 30%;
+    border-radius: 100%;
+    padding: 90px 0px 30px 100px;
+}
+
+.flexbox_influencer {
+    display: flex;
+    flex-direction: row;
+}
+
+.udtalelse {
+    text-align: left;
+    margin-right: 20%;
+    line-height: 1.7;
+}
+
+.rabatkode {
+    text-align: left;
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+.juster {
+    padding-top: 10%;
+}
+
+.betin {
+    font-size: 15px;
+    text-align: left;
+    padding-left: 5%;
+    font-style: italic;
+}
+    /* ---------------------------- SOME PAGE SLUT - MEDIA QUERIES - DESKTOP -------------------------*/ 
+
+    /* ---------------------------- HVORFOR VÆLGE OS? - MEDIA QUERIES - DESKTOP -------------------------*/ 
+
+.overskrift_hvorfor {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.bæredygtighed {
+    font-size: 1.6rem;
+}
+
+.icon_small1 {
+    width: 50%;
+    margin: 5% 5% 0 5%;
+    border-radius: 100%;
+    border: 0.5px solid grey;
+}
+
+.icon_small2 {
+    width: 50%;
+    margin: 5% 5% 0 5%;
+    border-radius: 100%;
+    border: 0.5px solid #808080;
+}
+
+.flexbox_alle {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex_en {
+    width: 150%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    padding-bottom: 5%;
+    margin: 3%;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    background-color: rgb(246, 243, 237);
+}
+
+.flex_to {
+    width: 150%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    margin: 3%;
+    background-color: rgb(229, 240, 239);
+}
+
+.om {
+    line-height: 1.5;
+    font-size: 1.1rem;
+    padding-top: 4%;
+    color: rgb(86, 86, 86);
+    font-weight: 100;
+}
+
+.emballage1 {
+    line-height: 1.5;
+    font-size: 1.1rem;
+    padding-top: 5%;
+    margin: 5%;
+    color: rgb(86, 86, 86);
+    font-weight: 100;
+} 
+
+.mere {
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: .2em;
+    font-family: Helvetica, sans-serif;
+    border: 0.5px solid gray;
+    color: var(--textcolor);
+    padding: 13px 32px;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.line {
+    width: 85%;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+.ejer {
+    width: 30%;
+    border-radius: 50%;
+    margin: 10%;
+    border: 0.5px solid grey;
+}
+
+.ejer1{
+    font-size: 20px;
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: 100;;
+}
+
+.andrea {
+    font-size: 90px;
+    font-family:cursive;
+    font-weight: 100;
+    font-style: italic;
+    margin: 0;
+    margin-top: 8%;
+    color: rgb(163, 186, 187);
+}
+
+.flex_tre {
+    display:flex;
+    flex-direction: row;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+    /* ---------------------------- HVORFOR VÆLGE OS? SLUT - MEDIA QUERIES - DESKTOP -------------------------*/ 
+
+    /* ---------------------------- FOOTER - MEDIA QUERIES - DESKTOP -------------------------*/ 
+
+.footer_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+
+.creme_1 {
+    padding: 0;
+}
+
+.face {
+    width: 50px;
+}
+
+.item_footer1 {
+    padding-top: 3%;
+}
+
+.insta {
+    width: 50px;
+}
+
+.item_footer {
+    padding-top: 1%
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    align-items: center;
+    gap: 5%;
+}
+
+    /* ---------------------------- FOOTER SLUT - MEDIA QUERIES - DESKTOP -------------------------*/ 
+}
+/* ----------------------------  MEDIA QUERIES SLUT - DESKTOP -------------------------*/ 
